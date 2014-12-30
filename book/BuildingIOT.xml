@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<book>
+<info>
+	<title>Build your own IoT service</title>
+	<subtitle>With FreeBSD, PCengines and stuff</subtitle>
+	<author>
+		<personname>
+			<firstname>Bart</firstname><surname>Hanssens</surname>
+		</personname>
+	</author>
+	<copyright><year>2015</year><holder>Bart Hanssens</holder></copyright>
+</info>
+<chapter><title>About this book</title>
+</chapter>
+
+</book>
