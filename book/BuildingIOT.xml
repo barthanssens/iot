@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<book>
+<book xmlns="http://docbook.org/ns/docbook" 
+		xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
 <info>
 	<title>Build your own IoT service</title>
 	<subtitle>With FreeBSD, PCengines and stuff</subtitle>
@@ -9,8 +10,17 @@
 		</personname>
 	</author>
 	<copyright><year>2015</year><holder>Bart Hanssens</holder></copyright>
+	<legalnotice>
+		<para>
+		<mediaobject>
+			<imageobject><imagedata fileref="cclicense.png" /></imageobject>
+		</mediaobject>
+		This work is licensed under a <link  xlink:href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</link>.
+		</para>
+	</legalnotice>
 </info>
-<chapter><title>About this book</title>
+
+<chapter xml:id="chabout"><title>About this book</title>
 </chapter>
 
 </book>
