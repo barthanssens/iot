@@ -1,26 +1,91 @@
 <?xml version="1.0"?>
 <book xmlns="http://docbook.org/ns/docbook" 
-		xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+		xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0"
+		status="draft">
+<title>Build your own IoT service</title>
+<subtitle>With FreeBSD, PCengines and stuff</subtitle>
 <info>
-	<title>Build your own IoT service</title>
-	<subtitle>With FreeBSD, PCengines and stuff</subtitle>
 	<author>
 		<personname>
 			<firstname>Bart</firstname><surname>Hanssens</surname>
 		</personname>
+		<email>bart@rovin.be</email>
 	</author>
 	<copyright><year>2015</year><holder>Bart Hanssens</holder></copyright>
+	<pubdate>03 January 2015</pubdate>
+	<releaseinfo>Version 0.1</releaseinfo>
 	<legalnotice>
+		<title>License</title>
 		<para>
 		<mediaobject>
-			<imageobject><imagedata fileref="cclicense.png" /></imageobject>
+			<imageobject><imagedata fileref="./images/by-sa.svg" format="SVG"/></imageobject>
+			<textobject><phrase>Creative Commons logo</phrase></textobject>
 		</mediaobject>
-		This work is licensed under a <link  xlink:href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</link>.
 		</para>
+		<para>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <link xlink:href="http://creativecommons.org/licenses/by-sa/4.0/">http://creativecommons.org/licenses/by-sa/4.0/</link> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</para>
 	</legalnotice>
 </info>
-
-<chapter xml:id="chabout"><title>About this book</title>
+<chapter xml:id="chabout">
+	<title>About this book</title>
+	<sect1><title>Disclaimer</title></sect1>
 </chapter>
-
+<chapter xml:id="chproject">
+	<title>The project</title>
+	<sect1><title>Constraints</title>
+		<para>Some criteria:
+		<itemizedlist>
+			<listitem><para><emphasis role="strong">Not too expensive:</emphasis><phrase> less than 400 EUR initial costs, and less than 20 EUR/month recurring costs.</phrase></para>
+			</listitem>
+			<listitem><para><emphasis role="strong">Quiet:</emphasis><phrase> </phrase></para>
+			</listitem>
+			<listitem><para><emphasis role="strong">:</emphasis><phrase> </phrase></para>
+			</listitem>
+			<listitem><para><emphasis role="strong">Non-permanent connection</emphasis><phrase></phrase></para>
+			</listitem>
+		</itemizedlist>
+		</para>
+	</sect1>
+	<sect1><title>What about ...</title>
+		<sect2><title>Alarm systems</title>
+			<tip></tip>
+			<warning><title>Installing an alarm system</title>
+			</warning>
+		</sect2>
+		<sect2><title>Home automation systems</title>
+		</sect2>
+	</sect1>
+</chapter>
+<chapter xml:id="chgateway">
+	<title>Gateway</title>
+	<sect1><title>PCengines</title>
+		<note><title>Ordering</title>
+		<para>
+Note that while, getting the order shipped seems to be a hit-or-miss: 
+		</para>
+		</note>
+	</sect1>
+	<sect1><title>Alternatives</title>
+		<sect2><title>Giada</title>
+		</sect2>
+		<sect2><title>Fit PC</title>
+		</sect2>
+		<sect2><title>Orange Pi</title>
+		</sect2>
+	</sect1>
+</chapter>
+<chapter xml:id="chcams">
+	<title>Webcams</title>
+	<sect1><title>Some concepts</title>
+		<sect2><title>IR cut</title>
+		</sect2>
+		<sect2><title>PTZ</title>
+		</sect2>
+		<sect2><title>ONVIF</title>
+		</sect2>
+		<sect2><title>Orange Pi</title>
+		</sect2>
+	</sect1>
+</chapter>
+<chapter xml:id="chcloud"><title>Online</title>
+</chapter>
 </book>
