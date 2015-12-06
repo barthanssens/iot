@@ -67,11 +67,11 @@
 		<tip><title></title>
 			<para>If you don't have a null-modem cable, you may want to use <link xlink:href="http://mfsbsd.vx.sk">mfsBSD</link> on a USB-stick.</para>
 		</tip>
-		<note><title>Ordering</title>
+<!--		<note><title>Ordering</title>
 		<para>
 Note that while, getting the order shipped seems to be a hit-or-miss: 
 		</para>
-		</note>
+		</note>-->
 	</sect1>
 	<sect1><title>Alternatives</title>
 		<sect2><title>An old laptop / desktop</title>
@@ -81,6 +81,7 @@ Note that while, getting the order shipped seems to be a hit-or-miss:
 		<tip><para></para></tip>
 		</sect2>
 		<sect2><title>Fit PC</title>
+		<para>Another very interesting alternative is the <ulink url="http://www.fit-pc.com/web/products/fitlet/fitlet-i/">FitPC Fitlet-i</ulink>, a small, fanless barebone PC in a hardened enclosure. Powered by a 64-bit, quad core AMD 10 Micro 6700T with Radean Graphics, it is capable of running Linux and Windows.
 		</sect2>
 		<sect2><title>Various kinds of Pi</title>
 			<para></para>
