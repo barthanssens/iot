@@ -12,8 +12,8 @@
 		<email>bart@rovin.be</email>
 	</author>
 	<copyright><year>2015</year><holder>Bart Hanssens</holder></copyright>
-	<pubdate>03 January 2015</pubdate>
-	<releaseinfo>Version 0.1</releaseinfo>
+	<pubdate>06 December 2015</pubdate>
+	<releaseinfo>Version 0.2</releaseinfo>
 	<legalnotice>
 		<title>License</title>
 		<para>
@@ -26,38 +26,47 @@
 	</legalnotice>
 </info>
 <chapter xml:id="chabout">
-	<title>About this book</title>
+	<title>About this booklet</title>
 	<sect1><title>Disclaimer</title></sect1>
+</chapter>
+<chapter xml:id="chsec">
+	<title>Security</title>
 </chapter>
 <chapter xml:id="chproject">
 	<title>The project</title>
 	<sect1><title>Constraints</title>
 		<para>Some criteria:
 		<itemizedlist>
-			<listitem><para><emphasis role="strong">Not too expensive:</emphasis><phrase> less than 400 EUR initial costs, and less than 20 EUR/month recurring costs.</phrase></para>
+			<listitem><para><emphasis role="strong">Reusable:</emphasis><phrase> meaning that, when I get bored, it should be usable for other projects.</phrase></para>
 			</listitem>
-			<listitem><para><emphasis role="strong">Quiet:</emphasis><phrase> </phrase></para>
+			<listitem><para><emphasis role="strong">Open and independent:</emphasis><phrase> not tied to a specific brand or service provider.</phrase></para>
 			</listitem>
-			<listitem><para><emphasis role="strong">:</emphasis><phrase> </phrase></para>
+			<listitem><para><emphasis role="strong">Not too expensive:</emphasis><phrase> say, less than 400 EUR initial costs and less than 20 EUR/month recurring costs.</phrase></para>
 			</listitem>
-			<listitem><para><emphasis role="strong">Non-permanent connection</emphasis><phrase></phrase></para>
+			<listitem><para><emphasis role="strong">Living-room friendly:</emphasis><phrase> this translates into a quiet (fan-less, no moving parts ...) and small design, with a nice cover protecting it from dust and  (without paying a premium for a rugged/ industrial strength solution).</phrase></para>
+			</listitem>
+			<listitem><para><emphasis role="strong">Fairly energy-efficient:</emphasis><phrase> 15 Watts should be enough.</phrase></para>
+			</listitem>
+			<listitem><para><emphasis role="strong">Non-permanent connection:</emphasis><phrase> the idea is to use a 3G connection</phrase></para>
 			</listitem>
 		</itemizedlist>
 		</para>
 	</sect1>
 	<sect1><title>What about ...</title>
-		<sect2><title>Alarm systems</title>
-			<tip></tip>
+		<sect2><title>Alarm systems ?</title>
 			<warning><title>Installing an alarm system</title>
 			</warning>
 		</sect2>
-		<sect2><title>Home automation systems</title>
+		<sect2><title>Home automation systems ?</title>
 		</sect2>
 	</sect1>
 </chapter>
 <chapter xml:id="chgateway">
 	<title>Gateway</title>
 	<sect1><title>PCengines</title>
+		<tip><title></title>
+			<para>If you don't have a null-modem cable, you may want to use <link xlink:href="http://mfsbsd.vx.sk">mfsBSD</link> on a USB-stick.</para>
+		</tip>
 		<note><title>Ordering</title>
 		<para>
 Note that while, getting the order shipped seems to be a hit-or-miss: 
@@ -65,11 +74,18 @@ Note that while, getting the order shipped seems to be a hit-or-miss:
 		</note>
 	</sect1>
 	<sect1><title>Alternatives</title>
+		<sect2><title>An old laptop / desktop</title>
+			<para></para>
+		</sect2>
 		<sect2><title>Giada</title>
+		<tip><para></para></tip>
 		</sect2>
 		<sect2><title>Fit PC</title>
 		</sect2>
-		<sect2><title>Orange Pi</title>
+		<sect2><title>Various kinds of Pi</title>
+			<para></para>
+		</sect2>
+		<sect2><title>Turris Omnia</title>
 		</sect2>
 	</sect1>
 </chapter>
@@ -86,6 +102,14 @@ Note that while, getting the order shipped seems to be a hit-or-miss:
 		</sect2>
 	</sect1>
 </chapter>
-<chapter xml:id="chcloud"><title>Online</title>
+<chapter xml:id="chdevices">
+	<title>Devices</title>
+</chapter>
+<chapter xml:id="chcloud">
+	<title>Online</title>
+</chapter>
+<chapter xml:id="chlowpan">
+</chapter>
+<chapter xml:id="chbeacons">
 </chapter>
 </book>
