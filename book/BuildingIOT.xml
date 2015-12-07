@@ -81,7 +81,12 @@ Note that while, getting the order shipped seems to be a hit-or-miss:
 		<tip><para></para></tip>
 		</sect2>
 		<sect2><title>Fit PC</title>
-		<para>Another very interesting alternative is the <ulink url="http://www.fit-pc.com/web/products/fitlet/fitlet-i/">FitPC Fitlet-i</ulink>, a small, fanless barebone PC in a hardened enclosure. Powered by a 64-bit, quad core AMD 10 Micro 6700T with Radean Graphics, it is capable of running Linux and Windows.
+		<para>Another interesting alternative is the <ulink url="http://www.fit-pc.com/web/products/fitlet/fitlet-i/">FitPC Fitlet-i</ulink>, a small, fanless barebone PC in a hardened enclosure. Powered by a 64-bit, quad core AMD A4 or APU with Radeon Graphics, it is capable of running Linux and Windows.</para>
+		<para>While clearly more powerful and more versatile (the fitlet can support two HDMI 1.4 interfaces, has dual band Wifi + Bluetooth 4.0 module and can be fitted with 8 GB RAM), it is also slightly more expensive: 250 USD without storage, memory and, especially for those living in the EU, value added taxes.
+		</para>
+		<note><title>Mintbox Mini</title>
+		<para>The Fitlet has an almost fully loaded twin brother, called the MintBox Mini, with a very competitive pricetag. Unfortunately it lacks the Fitlet-i's built-in SIM slot.</para>
+		</note>-
 		</sect2>
 		<sect2><title>Various kinds of Pi</title>
 			<para></para>
